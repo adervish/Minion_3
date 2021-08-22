@@ -12,3 +12,4 @@ network={
         priority=50
 }
 
+country=US
