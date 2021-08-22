@@ -191,7 +191,8 @@ else:
 
 # Set up external software and raspi-config
 # Get updates
-#os.system('sudo apt-get update && sudo apt-get upgrade -y') 
+os.system('sudo apt-get update ') 
+#os.system('sudo apt-get upgrade -y') 
 # Get needed packages
 os.system('sudo apt-get install -y build-essential python-smbus i2c-tools avrdude nmap nginx php-fpm php-zip')
 # raspi-config
